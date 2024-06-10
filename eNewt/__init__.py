@@ -5,4 +5,7 @@ import logging
 import sys
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
-from .data_generation.generate_data import sample_objective_function
+# from .utils.data import sample_objective_function, load_TensorDataset, get_batches
+
+import eNewt.models
+import eNewt.utils
